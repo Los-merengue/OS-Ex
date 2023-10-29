@@ -1,0 +1,16 @@
+### Describing a Page Table Entry
+
+Bit         |   Function
+            |
+Present     |   Page is resident in memory and not swapped out
+Reference   |   Page is resent but not accessible
+RW          |   Set if the page may be written to
+User        |   Set if the page is accessible from user space
+Dirty       |   Set if the page is written to
+Global      |   Set if the page is accessed    
+
+
+cat /proc/{pid}/maps
+less /proc/{pid}/maps
+nano /proc/{pid}/maps
+pmap {pid}
