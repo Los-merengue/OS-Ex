@@ -1,0 +1,2 @@
+- when different process in a set are waiting for an event that a process in that same set
+has triggered, then we can say that there is a deadlock
