@@ -1,0 +1,190 @@
+ls
+cd Desktop/
+ls
+cd ..
+clear
+ls
+history
+history | cat > ∼/week01/ex2.txt
+mkdir ~/week01
+ls
+history | cat > ∼/week01/ex2.txt
+cd week01/
+ls
+touch ex2.txt
+ls
+history | cat > ∼/week01/ex2.txt
+cat > ~/week01/ex2.txt
+history > ∼/week01/ex2.txt
+history
+git clone https://github.com/firas-jolha/private-os23-labs.git
+sudo apt install git
+git clone https://github.com/firas-jolha/private-os23-labs.git
+mkdir
+mkdir week02
+ls
+cd week02
+ls
+mkdir example1
+ls
+cd example1/
+ls
+touch example1.c
+ls
+sudo nano example1.c 
+sudo nano character.c
+ls
+cd ..
+mkdir example2
+ls
+cd example1
+ls
+mv character.c ../example2
+ls
+cd ..
+ls
+cd example2
+ld
+ls
+sudo nano double.c
+ls
+sudo nano example2.c
+ls
+sudo nano float.c
+ls
+sudo nano format_input_stdin.c
+sudo nano int_to_str.c
+sudo nano integer.c
+sudo nano program.c
+sudo nano read_float_stdin.c
+sudo nano read_float_stdout.c
+sudo nano read_hex_stdin.c
+sudo nano read_hex_stdout.c
+sudo nano sizeof.c
+sudo nano str_to_int.c
+cat str_to_int.c
+sudo nano str_to_int.c
+sudo nano void.c
+ls
+cat void.c 
+ls
+man gcc
+gcc --help
+sudo apt install gcc
+sudo apt install gcc -y
+man gcc
+clear
+gcc --help
+ls
+cd week02
+ls
+cd example1
+ls
+sudo nano example1.c 
+cd ..
+ls
+cd example2
+ls
+sudo nano program.c 
+mv program.c ../example1
+cd ..
+ls
+cd example1
+ls
+gcc -E program.c -o main.i 
+ls
+sudo nano main.i
+gcc --help
+ls
+gcc -S program.c -o main.asm
+ls
+sudo nano main.asm
+gcc -c program.c -o main.out
+ls
+sudo nano main.out
+gcc program.c -o alsu
+ls
+./alsu
+clear
+cd ..
+ls
+cd example2
+ld
+ls
+sudo nano character.c 
+sudo nano sizeof.c
+sudo nano example2.c 
+clear
+ls
+sudo nano example2.c 
+sudo nano integer.c 
+sudo nano character.c 
+sudo nano void.c
+sudo nano program.c
+sudo nano character.c 
+sudo nano example.2
+sudo nano example2.c 
+sudo nano read_float_stdin.c 
+sudo nano format_input_stdin.c 
+sudo nano int_to_str.c 
+gcc int_to_str.c -o dem
+ls
+./dem
+clear
+cd ..
+ls
+cd example
+cd example.2
+cd example1
+ls
+sudo nano example1.c 
+rm alsu
+ls
+rm main.asm 
+rm main.i
+rm main.out 
+ls
+clear
+ls
+sudo nano program
+sudo nano program.c 
+gcc --help
+gcc -E program.c -o main.i
+ls
+sudo nano main.i 
+gcc -S program.c -o main.asm
+ls
+sudo nano main.asm 
+gcc -c program.c -o main.obj
+ls
+sudo nano main.obj 
+gcc program.c -o main.out
+ls
+./main.out 
+man 3 scanf
+ls
+sudo nano example1.c 
+ls
+cd ..
+ls
+cd example2/
+ls
+sudo nano example2.c 
+ls
+sudo nano read_float_stdin.c 
+sudo nano read_hex_stdin.c 
+history
+clear
+cd ~/week01/
+ping twitch.tv -w 5 > trash1.txt
+ls
+cat trash1.txt 
+history > ex2.txt
+ls
+cat ex2.txt
+ls
+rm ex2.txt 
+ls
+rm trash1.txt 
+ls
+history -w ex2.txt
